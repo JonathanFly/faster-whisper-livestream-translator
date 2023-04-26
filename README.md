@@ -12,7 +12,7 @@ Whisper really needs good noise reduction for some live streams or it barely wor
 ### 2. Dual language subtitles.
 Preferably by running two full Whisper models in parallel and sychronizing the segments, not like this code.
 
-This is super buggy and constantly disconnects, but I got very distracted by https://github.com/JonathanFly/bark/tree/main/bark and might forget to ever come back to this.
+This is super buggy and constantly disconnects, but I got very distracted by https://github.com/JonathanFly/bark and might forget to ever come back to this.
 
 # Usage
 
