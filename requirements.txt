@@ -1,0 +1,13 @@
+numpy
+tqdm
+more-itertools
+
+torch
+transformers>=4.19.0
+ffmpeg-python==0.2.0
+faster-whisper
+streamlink
+tabulate
+numpy_ringbuffer
+click
+rich
