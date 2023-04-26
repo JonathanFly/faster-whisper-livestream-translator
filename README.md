@@ -1,5 +1,5 @@
 # faster-whisper-livestream-translator with OBS NVIDIA noise reduction
-Translating livestreams with faster-whisper, and dual language subtitles
+Translating livestreams with [faster-whisper](https://github.com/guillaumekln/faster-whisper), and dual language subtitles
 
 ## This is mostly just a proof of concept
 
