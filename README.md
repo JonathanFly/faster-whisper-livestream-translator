@@ -26,14 +26,21 @@ File, Settings, Stream, Service: Custom..., "rtmp://127.0.0.1:12345"
 6. Start python translate_livestream.py 
 7. Click Start Streaming
 
+## Dual Subs with segment coloring
 ![stream_translate_dual](https://user-images.githubusercontent.com/163408/234679630-cf69aaa6-c83f-48b5-865b-499c86b675b3.PNG)
 ```
 python translate_livestream.py --direct_url rtmp://127.0.0.1:12345 --model_size_or_path medium --task transcribe --dual_language_subs --language ko --interval 7 --threshold 0.5 --min_silence_duration_ms 1000 --no_segment_probabilities
 ```
 
+## Transcription with word probabilities
 ![stream_translate_transcribe](https://user-images.githubusercontent.com/163408/234680044-d8549991-9676-40a6-904e-f9e6c72884fe.PNG)
 ```
 python translate_livestream.py --direct_url rtmp://127.0.0.1:12345 --model_size_or_path small --task transcribe --interval 8 --threshold 0.5 --min_silence_duration_ms 2000 --word_timestamps True --history_word_size 0
+```
+
+## (You can still run without OBS for noise reduction)
+```
+python translate_livestream.py https://www.twitch.tv/xqc --model_size_or_path medium --task transcribe --interval 7 --threshold 0.5 --min_silence_duration_ms 2000 --word_timestamps True --history_word_size 0
 ```
 
 # Install
